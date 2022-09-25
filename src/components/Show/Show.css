@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.showcase-containerr{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-top: 6rem;
+    background-color: white;
+    
+}
+    
+.showcase-wrapper{
+    border-radius: 20px;
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('../../../public/images/bg3.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.showcase-wrapper h1{
+    font-size: 45px;
+    color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.show-content{
+
+    color: white;
+    padding: 0 10rem 0 10rem;
+    text-align: center;
+}
+.show-content p{
+    margin-top: 3rem;
+    font-size: 20px;
+}
