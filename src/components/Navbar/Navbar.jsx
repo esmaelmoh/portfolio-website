@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import '../Navbar/Navbar.css';
 const Navbar = () => {
@@ -16,7 +16,7 @@ const Navbar = () => {
           className="menu-bar"
           onClick={handleOpen}
         >
-          <FaBars />
+          {open ? <FaTimes /> : <FaBars />}
         </label>
         <label className="logo">
           {' '}
@@ -25,23 +25,43 @@ const Navbar = () => {
         <ul className={`${open ? 'links show' : 'links'}`}>
           <li>
             <a>
-              <Link to="./">Home</Link>
+              <Link
+                to="./"
+                onClick={() => setOpen(false)}
+              >
+                Home
+              </Link>
             </a>
           </li>
           <li>
             <a>
-              <Link to="./Services">Services</Link>
+              <Link
+                to="./Services"
+                onClick={() => setOpen(false)}
+              >
+                Services
+              </Link>
             </a>
           </li>
 
           <li>
             <a>
-              <Link to="./info">Info</Link>
+              <Link
+                to="./info"
+                onClick={() => setOpen(false)}
+              >
+                Info
+              </Link>
             </a>
           </li>
           <li>
             <a>
-              <Link to="./contact">Contact</Link>
+              <Link
+                to="./contact"
+                onClick={() => setOpen(false)}
+              >
+                Contact
+              </Link>
             </a>
           </li>
 
