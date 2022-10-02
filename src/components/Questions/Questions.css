@@ -7,7 +7,7 @@
 .ques-container {
   padding: 15px 0px 5px 0px;
   max-width: 800px;
-  min-width: 400px;
+  min-width: 350px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -27,6 +27,7 @@
 .details {
   margin: 0 4rem;
   /* text-align: center; */
+  color: rgb(93, 93, 93);
   width: 80%;
   transition: 5s ease-in;
 }
@@ -46,4 +47,15 @@
   margin-top: 7rem;
   margin-bottom: 3rem;
   text-align: center;
+}
+@media (max-width: 500px) {
+  .ques {
+    /* text-align: center; */
+    margin: 0 1.5rem;
+    padding: 30px 10px 10px 20px;
+  }
+  .details {
+    margin-left: 2rem;
+    margin-right: 1.4rem;
+  }
 }
