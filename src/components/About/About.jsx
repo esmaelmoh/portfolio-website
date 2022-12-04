@@ -26,7 +26,7 @@ const About = () => {
         
 
     </div>
-    {/* <Questions/> */}
+   
     </div>
   )
 }
