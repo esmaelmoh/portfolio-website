@@ -11,15 +11,7 @@ export const Questions = () => {
         {data.map((item , index)=>{
             return(
             <SingleQuestion item={item} key={index}></SingleQuestion>
-                // <div className="ques-container" key={index}>
-
-                //     <div className="ques">
-                //     <p>{item.question}</p>
-                //     <i onClick={()=>setShowInfo(!showInfo)}><FaAngleDown/></i>
-                //     </div>
-                //     {showInfo && <p>{item.answer}</p>}
-                    
-                // </div>
+              
             )
         })}
         
