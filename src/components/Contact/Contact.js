@@ -20,7 +20,7 @@ export const Contact = () => {
               type="phone number"
               placeholder="+25195783932"
             />
-            {/* <input type='text' placeholder='Subject' /> */}
+           
             <textarea
               cols="30"
               rows="10"
