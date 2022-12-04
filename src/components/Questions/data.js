@@ -18,7 +18,7 @@ const data = [
     },
     {
         question:'How do you ensure quality in website or software development outsource projects?',
-        answer:'ZalaTech a leading outsourced development company, thoroughly analyzes your project and then gives a list of experts whose knowledge and understanding match the best for your project. Moreover, you can shortlist from the choices, and once you have confirmed the applicants, we will continue with the work.'
+        answer:'Ethio Tech a leading outsourced development company, thoroughly analyzes your project and then gives a list of experts whose knowledge and understanding match the best for your project. Moreover, you can shortlist from the choices, and once you have confirmed the applicants, we will continue with the work.'
     },
     {
         question:'Do you offer cost-effective software and website outsourcing services?',
