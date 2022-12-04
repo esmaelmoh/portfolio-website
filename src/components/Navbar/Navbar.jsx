@@ -65,10 +65,6 @@ const Navbar = () => {
             </a>
           </li>
 
-          {/* <li><a href="#home">home</a></li>
-                    <li><a href="#about us">about us</a></li>
-                    <li><a href="#services">Services</a></li>                  
-                    <li><a href="#contact">contact</a></li>  */}
         </ul>
       </nav>
     </nav>
