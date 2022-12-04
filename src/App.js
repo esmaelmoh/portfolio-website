@@ -13,17 +13,7 @@ function App() {
   return (
     <div >
       <Page/>
-      {/* <Navbar/>
-      <Show/>
      
-      <About/>
-      
-      <Services/>
-      <Questions/>
-      <Sector/>
-      <Reviews/>4
-      <Footer/> */}
-      {/* <Showcase/> */}
     </div>
   );
 }
